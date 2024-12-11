@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1c1c1c;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: #a7a7a7;
+    display: flex;
+    align-items: center;
+}
+
+header .logo a:hover {
+    color: #ffffff; /* Optional hover effect */
+}
+
+header .logo a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 15px; /* Adds space between links */
+}
+
+header nav a {
+    color: #7a7a7a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ffffff; /* Optional hover effect */
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    gap: 20px;
+    padding: 100px;
+}
+
+.game-widget {
+    text-align: center;
+    background-color: #1c1c1c;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* Ensure text is white */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.game-widget:hover {
+    background-color: #333333;
+    transform: scale(1.05); /* Adds a slight zoom effect */
+}
+
+.game-widget img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.game-widget p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.game-widget:hover {
+    background-color: #333333;
+}
+
